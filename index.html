@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CALCULADORA IMC</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>VIVA+</h2>
+        <h5>SAÚDE E BEM-ESTAR</h5>
+    </nav>
+
+    <main>
+
+        <div class="HERO">
+
+            <h1>Calculadora de IMC</h1>
+
+            <p>
+                Informe peso e altura para calcular seu IMC
+                e consultar a classificação de adultos.
+            </p>
+
+            <div class="caixa">
+
+                <div class="inp">
+
+                    <div class="campo">
+                        <label for="altura">Altura (cm)</label>
+                        <input type="number" id="altura" value="" placeholder="Ex: 1.80">
+                    </div>
+
+                    <div class="campo">
+                        <label for="peso">Peso (kg)</label>
+                        <input type="number" id="peso" value="" placeholder="Ex: 67">
+                    </div>
+
+                </div>
+
+                <div class="bnt">
+                    <button type="button" id="but">Calcular</button>
+                </div>
+                        <div class="resultado" id="resultado">
+            
+        </div>
+            </div>
+
+        </div>
+
+        <div class="SECAO-calculadora">
+
+            <h2>Mais conhecimento, mais cuidado, mais qualidade de vida.</h2>
+
+            <p>
+                O VIVA+ é uma plataforma informativa criada para tornar o acesso
+                a informações sobre saúde e bem-estar mais simples e acessível.
+                Aqui, você pode calcular seu IMC, entender o significado do resultado e
+                conhecer conteúdos educativos sobre hábitos saudáveis.
+                Nosso objetivo é incentivar o autoconhecimento e mostrar que cuidar
+                da saúde também começa com informação.
+            </p>
+
+            <div class="bloco">
+
+                <div class="blocos">
+                    <h3>Autoconhecimento</h3>
+                    <p>
+                        Conheça melhor seus indicadores corporais e entenda o que eles
+                        representam.
+                    </p>
+                </div>
+
+                <div class="blocos">
+                    <h3>Informação</h3>
+                    <p>
+                        Acesse conteúdos educativos sobre saúde,
+                        alimentação e qualidade de vida.
+                    </p>
+                </div>
+
+                <div class="blocos">
+                    <h3>Bem-estar</h3>
+                    <p>
+                        Descubra hábitos que podem contribuir
+                        para uma rotina mais equilibrada.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="secao-tabela">
+
+
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th scope="col">CLASSIFICAÇÃO</th>
+                        <th scope="col">IMC</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Abaixo do peso</td>
+                        <td>Abaixo de 18,5</td>
+                    </tr>
+
+                    <tr>
+                        <td>Peso normal</td>
+                        <td>18,5 - 24,9</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sobrepeso</td>
+                        <td>25 - 29,9</td>
+                    </tr>
+
+                    <tr>
+                        <td>Obesidade grau I</td>
+                        <td>30 - 34,9</td>
+                    </tr>
+
+                    <tr>
+                        <td>Obesidade grau II</td>
+                        <td>35 - 39,9</td>
+                    </tr>
+
+                    <tr>
+                        <td>Obesidade grau III</td>
+                        <td>Maior ou igual a 40</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
